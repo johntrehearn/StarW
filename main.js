@@ -27,16 +27,17 @@ const swCards = (all) => {
         return `<div class="card">
         <p
         >#${character.id}</p>
-        <div>
-        <img src="${character.img}" alt="${character.name}"/>
-        </div>
         <h3 class="name_card">${character.name.toUpperCase()}</h3>
         <div>
-        <p>
-        <span> ${character.species} </span>
-        <span> ${character.wiki} </span>
-        </p>
+            <img src="${character.img}" alt="${character.name}"/>
         </div>
+        <div>
+            <h3 class="species"> Species:  ${character.species}</h3>
+            <p>
+            <br>
+<h3><a href="${character.wiki}" target="_blank" class="black-link">Star Wars Wikipedia</a></h3>            </p>
+        </div>
+        
         </div>`;
     })
     .join('');
