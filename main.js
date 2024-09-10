@@ -1,4 +1,4 @@
-const swDisplay = document.querySelector('.swDisplay');
+const swDisplay = document.querySelector('.displayResults');
 
 let swData = [];
 const fetchData = async () => {
