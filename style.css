@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Pixelify Sans', cursive;
+    background-color: rgb(143, 135, 135);
+}
+
+input[type="searchbar"]::placeholder {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Pixelify Sans', cursive;
+    text-align: center;
+    font-size: 70px;
+}
+
+h3 {
+    margin-top: 50px;
+}
+
+.displayResults {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-self: center;
+}
